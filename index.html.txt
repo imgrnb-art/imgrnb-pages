@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>imgラノベソング鑑賞会</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="favicon.ico" />
+</head>
+<body>
+<div class="content-bg">
+<div class="content-glass"></div>
+
+<div class="content-inner">
+<!-- ヘッダー -->
+<section class="top">
+<div style="display: flex; align-items: center">
+<img src="https://cytube.mm428.net/up/src/up39741.jpg" />
+<div style="margin-left: 15px">
+<div style="font-size: 1.3em; font-weight: bold">
+ラノベソング鑑賞会わよ…
+</div>
+<br />
+<div>
+主にライトノベルや小説とかのOP/ED/挿入歌/キャラソン/BGM/PVなどを流せるわよ…
+</div>
+</div>
+</div>
+ </section>
+
+<!-- 概要 -->
+<section class="outline">
+<h3>ラノベソング鑑賞会とは</h3>
+<p>
+            
+「この作品/曲いいよね…」「いい…」したりエモートで遊んだりして好みの作品/曲を見つけたり楽しむのが目的の鑑賞会わよ…            
+<br />
+現時点(2025/11/30)ではエロゲ・ギャルゲから派生してロボラノベシャゲと４つの鑑賞会が存在するわよ…エロゲ・ギャルゲには地球支部もあるわよ…
+<br />
+      
+</p>
+</section>
+
+<section class="explanation">
+<h3>初参加団嬢/団長向けの説明</h3>
+<p>
+・ロックマーク（赤）がチェックマーク（緑）になってる時だけ曲の追加が可能わよ…
+<br />
+・総再生予定時間が<b>1時間</b>を超えたら自動でロックされるわよ…
+<br />
+・総再生予定時間が<b>1時間</b>を超えなくても手動でロックするわよ…
+<br />
+・ロックは再生待ちの曲が無くなったら手動で開くわよ…あらかじめURLを入力しておくと追加が楽になるわよ…
+<br />
+・ゲスト参加だと他のゲスト団長と合わせて1ユーザー扱いになって曲を登録できない可能性が高いからよ…登録したいならログイン推奨わよ…
+<br />
+・基本的には12時までは1ユーザー毎の登録可能曲数は1曲登録可能時間は6分30秒までわよ…これは参加人数によって変動する可能性があるわよ…
+<br />
+・12時以降は二次会として登録可能曲数/時間や下記のレギュを緩和するわよ…
+<br />
+・冤罪で消された曲があれば二次会前に禊タイムわよ…
+<br />
+
+
+</p>
+</section>
+
+<!-- エモートについて -->
+        <section class="emote">
+<h3>エモートについて</h3>
+  <p>
+　エモート追加のご支援は常に歓迎わよ…
+<br />
+目指せエモート総数5000件わよ…
+<br />
+エモート追加の手順わよ…
+・あぷ小やcytubeのアップローダーを利用してスレ内に追加希望の画像を貼るわよ…その際作品名/希望するエモート名も書いてほしいわよ…エモート欄整理を理由に登録名は変更の可能性もあるわよ…
+<br />
+・jpg/pngの画像かつcytubeのアップローダーを利用する場合事前に画像の長辺を200pxにしておかないとファイル形式がgifに変換されるからわよ…
+<br />
+・アップロード手順はどちらでもいいけど急ぎで追加してほしい場合画像サイズを調整した状態でcytubeのアップローダーを利用してもらえるのがおすすめわよ…
+
+<!-- レギュレーション -->
+<section class="regulation">
+<h3>基本レギュレーション</h3>
+<p>
+<br />
+ここでは以下の2種類の分類を満たす曲を受け付けていますわよ…レギュを満たしていない場合スレ内で確認した後削除する可能性があるわよ…
+
+<b>分類1</b>
+<br />
+大きく分けて以下の種類の作品またはそのシリーズ（スピンオフ漫画などを含む）の曲を受け付けてますわよ…
+<ul>
+<li>ライトノベル原作作品</li>
+<li>小説家になろう等小説投稿サイト原作作品</li>
+<li>ライトノベルっぽい（アニメが深夜帯に放送されてそうな）小説作品</li>
+<li>同時期にライトノベルを含む複数メディアで展開され原作種類の判断が難しい作品</li>
+<li>漫画・アニメ・ゲームが原作のノベライズ作品（１２時より前の募集ではノベライズ範囲に関係がある曲のみ受け付けますわよ…）</li>
+</ul>
+<br />
+要はライトノベルと実質ライトノベルって説明ができる作品の曲わよ…
+<br />
+<br />
+<b>分類2<b>
+<br />アニメ・ゲーム等から主に以下の種類の曲を受け付けてますわよ…実写作品の曲も受け付けてますわよ…
+<br />
+<ul>
+<li> OPやED</li>
+<li> 挿入歌など</li>
+<li>キャラクターソング</li>
+<li>イメージソング</li>
+<li> BGM</li>
+<li> PV</li>
+
+</ul>
+<br />
+</p>
+</section>
+
+<!-- Q&A -->
+<section class="qa">
+<h3>詳細レギュレーション及び補足（Q&A）</h3>
+<p>
+グレーゾーンを攻めたい団長/団嬢向けわよ…普通のラノベソングを流す分には気にしなくていいわよ…
+<br />
+<b>判別が難しそうな曲を入れる場合は早めに確認して欲しいわよ…</b >
+<br />
+<br />
+<b>Q:分類１を完全に満たしてなくても惜しい作品</b>
+<br />
+例:ラノベっぽくはない小説原作の作品
+<br />
+A:脱法扱いわよ…
+<b>Q:脱法って何</b>
+<br />
+A: レギュの穴やグレーゾーンを攻めていることわよ…乱発されなければ削除しないわよ…ただし脱法かつ実写作品はダメわよ…
+<br />
+<br />
+<b>Q:カバーソングについて</b>
+<br />
+例:冴えカノの届かない恋
+<br />
+A:そのコンテンツ内でカバーされた曲はセーフわよ…
+<br />
+<br />
+<b>Q:歌ってみたやＭＩＸ曲について</b>
+<br />
+<br />
+A:その曲や作品と無関係な人が行っている場合アウトわよ…
+<br />
+<br />
+<b>Q:CＭについて</b>
+<br />
+例:特に思いつかなかったわよ…
+<br />
+A:作品とは直接関係がない商品などのCMでもラノベキャラがメインで登場するなら受け付けますわよ…
+
+<br />
+<br />
+<b>Q:キャラのイメージソングについて</b>
+ <br />
+例:シャンフロの秋津茜で有頂天ドリーマーズ
+<br />
+A:公式ではないけど作者がイメージソングを言及している場合に限ってその曲も受け付けますわよ…ただしスレ内で説明がないと削除の対象になる可能性が高いわよ…
+<br />
+<br />
+<b>Q:スターシステムについて</b>
+ <br />
+例:ダンまちと杖と剣のウィストリアでレフィーヤ
+<br />
+A:ノベライズ作品と概ね同じ扱いわよ…12時まではそのキャラのキャラソンやそのキャラがメインとなる範囲の主題歌のみ受け付けますわよ…12以降ならスターシステム先の曲も基本的に受け付けますわよ…
+<br />
+<br />
+<b>その他補足わよ…</b>
+ <br />・レギュを満たしていてもロボ/エロゲ/ギャルゲ/ソシャゲソングの原曲を乱発するのは少しだけ控えてほしいわよ…あるならカバーソングで個性を出していきたいっていうか…
+<br />・レギュチキンレースの曲は登録団長か有識団長の解説があるとありがたいわよ…
+<br />・明らかなレギュ違反（違法・脱法）じゃなければ多分そんなに厳しくチェックしないわよ
+<br />・レギュ違反だと思ったり指摘を受けた場合でもいきなり削除はしないわよ…確認してから削除するか判断わよ
+<br />・大事なのは実質ラノベって建前わよ…
+<br />
+</p>
+</details>
+</section>
+
+        <!-- カレンダー -->
+        <section class="calendar-section">
+  <div class="wrapper">
+    <div class="content-inner card">
+      <header>
+        <h1>過去の開催情報</h1>
+        <div class="controls">
+          <button id="todayBtn" class="btn">今月</button>
+          <button id="prevBtn" class="btn">&larr;</button>
+          <button id="nextBtn" class="btn">&rarr;</button>
+        </div>
+      </header>
+
+      <section id="calendarSection" class="card">
+        <div class="calendar-header">
+          <div class="month-title" id="monthTitle">--</div>
+        </div>
+        <div class="calendar-grid" id="calendarGrid">
+          <!-- 曜日行 -->
+          <div class="weekday">日</div><div class="weekday">月</div><div class="weekday">火</div><div class="weekday">水</div><div class="weekday">木</div><div class="weekday">金</div><div class="weekday">土</div>
+          <!-- 日付セル挿入 -->
+        </div>
+        <div class="info" id="calendarInfo"></div>
+      </section>
+
+      <section id="videosSection" class="card">
+        <h2 id="selectedDateTitle">動画リスト（未選択）</h2>
+        <div id="videoList" class="video-list"></div>
+      </section>
+    </div>
+  </div>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  <!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dfac281b5c274f35a7f6dd1df900575a"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>

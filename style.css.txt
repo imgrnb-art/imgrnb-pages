@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+
+/* 透明背景（最低限） */
+.content-bg {
+  position: relative;
+  padding: 20px;
+}
+
+.content-glass {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 0;
+}
+
+.content-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* セクション */
+section {
+  margin-bottom: 40px;
+}
+
+h3 {
+  border-left: 4px solid #555;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+p, li {
+  line-height: 1.7;
+}
+
+ul {
+  margin-left: 20px;
+}
