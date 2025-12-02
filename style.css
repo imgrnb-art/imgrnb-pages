@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
   background: url("https://cytube.mm428.net/up/src/up39741.jpg") no-repeat center center fixed;
+   background-size: 60%;   /* ← 背景画像を縮小（例：40%に） */
   background-size: cover;
   color: #333;
 }
@@ -88,3 +89,4 @@ ul {
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
