@@ -1,198 +1,121 @@
+/* 全体背景 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Yu Gothic", "游ゴシック体", "Hiragino Kaku Gothic Pro", sans-serif;
+    background-color: #f0f3f5; /* 淡いグレー系 */
+    background-image: url("https://github.com/imgrnb-art/imgrnb/blob/main/imgrnborg.jpg?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #222;
+}
 
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>imgラノベソング鑑賞会</title>
-<link rel="stylesheet" href="style.css" />
-<link rel="icon" type="image/png" href="https://cytube.mm428.net/up/src/up39741.jpg" />
-</head>
-</head>
-<body>
-<div class="content-bg">
-<div class="content-glass"></div>
+/* コンテンツ全体のガラス風ボックス */
+.content-bg {
+    display: flex;
+    justify-content: center;
+    padding: 60px 30px; /* 上下左右の余白を広く */
+}
 
-<div class="content-inner">
-<!-- ヘッダー -->
-<section class="top">
-<div style="display: flex; align-items: center">
-<img src="https://cytube.mm428.net/up/src/up39741.jpg" />
-<div style="margin-left: 15px">
-<div style="font-size: 1.3em; font-weight: bold">
-ラノベソング鑑賞会わよ…
-</div>
-<br />
-<div>
-主にライトノベルや小説とかのOP/ED/挿入歌/キャラソン/BGM/PVなどを流せるわよ…
-</div>
-</div>
-</div>
- </section>
+/* 透過カード風の背景 */
+.content-inner {
+    background: rgba(255, 255, 255, 0.9); /* 透明度を少し上げて読みやすく */
+    border-radius: 15px;
+    padding: 40px 40px; /* 内側の余白を広く */
+    max-width: 1100px; /* 幅を広くして文章を横に展開 */
+    width: 100%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25); /* 少し影を強めて浮かせる */
+}
 
-<!-- 概要 -->
-<section class="outline">
-<h3>ラノベソング鑑賞会とは</h3>
-<p>
-            
-「この作品/曲いいよね…」「いい…」したりエモートで遊んだりして好みの作品/曲を見つけたり楽しむのが目的の鑑賞会わよ…            
-<br />
-現時点(2025/11/30)ではエロゲ・ギャルゲから派生してロボラノベシャゲと４つの鑑賞会が存在するわよ…エロゲ・ギャルゲには地球支部もあるわよ…
-<br />
-      
-</p>
-</section>
+/* ヘッダー */
+.top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px; /* 下の余白を広く */
+}
 
-<section class="explanation">
-<h3>初参加団嬢/団長向けの説明</h3>
-<p>
-・ロックマーク（赤）がチェックマーク（緑）になってる時だけ曲の追加が可能わよ…
-<br />
-・総再生予定時間が<b>1時間</b>を超えたら自動でロックされるわよ…
-<br />
-・総再生予定時間が<b>1時間</b>を超えなくても手動でロックするわよ…
-<br />
-・ロックは再生待ちの曲が無くなったら手動で開くわよ…あらかじめURLを入力しておくと追加が楽になるわよ…
-<br />
-・ゲスト参加だと他のゲスト団長と合わせて1ユーザー扱いになって曲を登録できない可能性が高いからよ…登録したいならログイン推奨わよ…
-<br />
-・基本的には12時までは1ユーザー毎の登録可能曲数は1曲登録可能時間は6分30秒までわよ…これは参加人数によって変動する可能性があるわよ…
-<br />
-・12時以降は二次会として登録可能曲数/時間や下記のレギュを緩和するわよ…
-<br />
-・冤罪で消された曲があれば二次会前に禊タイムわよ…
-<br />
+.top img {
+    width: 140px; /* 少し大きく */
+    height: auto;
+    border-radius: 10px;
+    margin-right: 25px; /* 余白を広く */
+    border: 2px solid #444;
+}
 
+.top div > div:first-child {
+    font-size: 1.6em; /* 少し大きく */
+    font-weight: bold;
+    color: #1a1a1a;
+}
 
-</p>
-</section>
+/* 見出し */
+h3, h4, h5, h6 {
+    font-family: "Georgia", serif;
+    color: #1b3a57;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
 
-<!-- エモートについて -->
-        <section class="emote">
-<h3>エモートについて</h3>
-  <p>
-エモート追加のご支援は常に歓迎わよ…
-<br />
-目指せエモート総数5000件わよ…
-<br />
-エモート追加の手順わよ…
-<br />
-・あぷ小やcytubeのアップローダーを利用してスレ内に追加希望の画像を貼るわよ…その際作品名/希望するエモート名も書いてほしいわよ…エモート欄整理を理由に登録名は変更の可能性もあるわよ…
-<br />
-・jpg/pngの画像かつcytubeのアップローダーを利用する場合事前に画像の長辺を200pxにしておかないとファイル形式がgifに変換されるからわよ…
-<br />
-・アップロード手順はどちらでもいいけど急ぎで追加してほしい場合画像サイズを調整した状態でcytubeのアップローダーを利用してもらえるのがおすすめわよ…
-</section>
-    
-    
-<!-- レギュレーション -->
-<section class="regulation">
-<h3>基本レギュレーション</h3>
-<p>
-ここでは以下の2種類の分類を満たす曲を受け付けていますわよ…レギュを満たしていない場合スレ内で確認した後削除する可能性があるわよ…
-<br />
-<div class="classification-wrapper">
-  <div class="classification-card class1">
-    <h5>分類1</h5>
-    <ul>
-      <li>ライトノベル原作作品</li>
-      <li>小説家になろう等小説投稿サイト原作作品</li>
-      <li>ライトノベルっぽい小説作品</li>
-      <li>複数メディア展開で判断が難しい作品</li>
-      <li>ノベライズ作品</li>
-    </ul>
-  </div>
+/* 段落 */
+p {
+    line-height: 1.8; /* 少し行間を広く */
+    margin-bottom: 25px;
+}
 
-  <div class="classification-card class2">
-    <h5>分類2</h5>
-    <ul>
-      <li>OP/ED</li>
-      <li>挿入歌</li>
-      <li>キャラクターソング</li>
-      <li>イメージソング</li>
-      <li>BGM</li>
-      <li>PV</li>
-    </ul>
-  </div>
-</div>
-</section>
- 
-<!-- Q&A -->
-<section class="qa">
-<h3>詳細レギュレーション及び補足（Q&A）</h3>
-<p>
-グレーゾーンを攻めたい団長/団嬢向けわよ…普通のラノベソングを流す分には気にしなくていいわよ…
-<br />
-<b>判別が難しそうな曲を入れる場合は早めに確認して欲しいわよ…</b >
-<br />
-<br />
-<b>Q:分類１を完全に満たしてなくても惜しい作品</b>
-<br />
-例:ラノベっぽくはない小説原作の作品
-<br />
-A:脱法扱いわよ…
- <br />
- <br />
-<b>Q:脱法とは</b>
-<br />
-A: 本鑑賞会ではレギュの穴やグレーゾーンを攻めていることを指すわよ…乱発されなければ削除しないわよ…ただし脱法かつ実写作品はダメわよ…
-<br />
-<br />
-<b>Q:カバーソングについて</b>
-<br />
-例:冴えカノの霞ヶ丘詩羽で届かない恋
-<br />
-A:そのコンテンツ内でカバーされた曲はセーフわよ…
-<br />
-<br />
-<b>Q:歌ってみたやＭＩＸ曲について</b>
-<br />
-A:その曲や作品と無関係な人が行っている場合アウトわよ…
-<br />
-<br />
-<b>Q:CMについて</b>
-<br />
-例:特に思いつかなかったわよ…
-<br />
-A:作品とは直接関係がない商品などのCMでもラノベキャラがメインで登場するなら受け付けますわよ…
-<br />
-<br />
-<b>Q:キャラのイメージソングについて</b>
- <br />
-例:シャンフロの秋津茜で有頂天ドリーマーズ
-<br />
-A:公式ではないけど作者がイメージソングを言及している場合に限ってその曲も受け付けますわよ…ただしスレ内で説明がないと削除の対象になる可能性が高いわよ…
-<br />
-<br />
-<b>Q:スターシステムについて</b>
- <br />
-例:ダンまちと杖と剣のウィストリアでレフィーヤ
-<br />
-A:同作者の作品に限ってノベライズ作品と概ね同じ扱いわよ…12時まではそのキャラのキャラソンやそのキャラがメインとなる範囲の主題歌のみ受け付けますわよ…12以降ならスターシステム先の曲も基本的に受け付けますわよ…
-<br />
-<br />
-<b>その他補足わよ…</b>
- <br />・レギュを満たしていてもロボ/エロゲ/ギャルゲ/ソシャゲソングの原曲を乱発するのは少しだけ控えてほしいわよ…あるならカバーソングで個性を出していきたいっていうか…
-<br />・レギュチキンレースの曲は登録団長か有識団長の解説があるとありがたいわよ…
-<br />・明らかなレギュ違反（違法・脱法）じゃなければ多分そんなに厳しくチェックしないわよ
-<br />・レギュ違反だと思ったり指摘を受けた場合でもいきなり削除はしないわよ…確認してから削除するか判断わよ
-<br />・大事なのは実質ラノベって建前わよ…
-<br />
-</p>
-</details>
-</section>
+/* リスト */
+ul {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
 
-        
+/* 分類1と分類2のカード風セクション */
+.regulation h5, .regulation h6 {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: #d13f3f;
+}
 
-      </div>
-    </div>
-  <!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dfac281b5c274f35a7f6dd1df900575a"}'></script><!-- Cloudflare Pages Analytics --></body>
-</html>
+.regulation ul {
+    background: rgba(255, 255, 255, 0.75); /* 少し透明度を上げて読みやすく */
+    padding: 20px 25px; /* 内側余白を広く */
+    border-radius: 12px;
+    list-style-type: square;
+}
 
+/* Q&A */
+.qa {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 2px dashed #ccc;
+}
 
+/* エモート */
+.emote ul {
+    background: rgba(240, 248, 255, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+}
 
+/* リンクや強調 */
+b {
+    color: #d13f3f;
+}
 
+/* モバイル対応 */
+@media (max-width: 768px) {
+    .top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .top img {
+        margin-bottom: 15px;
+    }
 
-
-
+    .content-inner {
+        padding: 30px 20px; /* モバイルでは少し余白を小さく */
+    }
+}
